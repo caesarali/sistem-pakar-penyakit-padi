@@ -27,6 +27,3 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 - Run `php artisan db:seed`
 - Run `php artisan serve`
 - Done.
-
-## Use the API Services
-If you want to use the API services : http://localhost:8000/api
