@@ -25,3 +25,17 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
+
+# To use this app
+
+- Clone project from this repository
+- Run `composer install`
+- config the ` .env ` file
+- Run `php artisan migrate`
+- Run `php artisan db:seed`
+- Run `php artisan serve`
+- Done.
+
+## Use the API Services
+If you want to use the API services : http://localhost:8000/api

@@ -13,7 +13,7 @@ class CreateGejalaPenyakitTable extends Migration
      */
     public function up()
     {
-        Schema::create('gejala_penyakit', function (Blueprint $table) {
+        Schema::create('aturan', function (Blueprint $table) {
             $table->unsignedInteger('penyakit_id');
             $table->unsignedInteger('gejala_id');
 
