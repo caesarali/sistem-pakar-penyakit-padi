@@ -11,19 +11,15 @@ Documentation for the framework can be found on the [Laravel website](http://lar
 
 - Run `composer install`
 
-- config the ` .env ` file
+- config your database in ` .env ` file
 
-- Run `php artisan migrate`
-
-- Run `php artisan db:seed`
+- Run `php artisan migrate --seed`
 
 - Run `php artisan serve`
 
 - Done.
 
 ## Any Question ? Contact me on:
-- [Facebook](https://facebook.com/caesaralilamondo).
-
-or
+- [Facebook](https://facebook.com/caesaralilamondo) or
 
 - Whatsapp : 082293425786 - Caesar Ali L.
