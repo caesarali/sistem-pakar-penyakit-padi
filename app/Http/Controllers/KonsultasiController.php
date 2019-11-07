@@ -37,7 +37,7 @@ class KonsultasiController extends Controller
             foreach ($gejala->penyakit as $penyakit) {
                 $temp_diagnosa = TempDiagnosa::where('pasien_id', $pasien_id)->where('penyakit_id', $penyakit->id);
                 $temp_diag = $temp_diagnosa->first();
-                if (count($temp_diag) <= 0) {
+                if (!$temp_diag) {
                     $temp_diag = new TempDiagnosa;
                     $temp_diag->pasien_id = $pasien_id;
                     $temp_diag->penyakit_id = $penyakit->id;

@@ -13,6 +13,8 @@ Documentation for the framework can be found on the [Laravel website](http://lar
 
 - config your database in ` .env ` file
 
+- Run `php artisan key:generate`
+
 - Run `php artisan migrate --seed`
 
 - Run `php artisan serve`

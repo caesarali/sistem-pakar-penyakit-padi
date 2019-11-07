@@ -8,7 +8,6 @@ class Diagnosa extends Model
 {
     protected $table = 'diagnosa';
 
-    // protected $guarded = 'id';
     protected $fillable = ['pasien_id', 'penyakit_id', 'persentase'];
 
     public $timestamps = false;
